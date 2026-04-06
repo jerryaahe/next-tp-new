@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+/.open-next/
+.DS_Store
+.history
+yarn.lock
+package-lock.json
+tsconfig.tsbuildinfo

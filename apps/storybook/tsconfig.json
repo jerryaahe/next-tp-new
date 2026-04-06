@@ -1,0 +1,18 @@
+{
+  "extends": "@workspace/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "paths": {
+      "~/*": ["../../packages/ui/src/*"],
+      "@workspace/ui/*": ["../../packages/ui/src/*"]
+    }
+  },
+  "include": [
+    "stories/**/*.ts",
+    "stories/**/*.tsx",
+    ".storybook/**/*.ts",
+    "vite.config.ts"
+  ],
+  "exclude": ["node_modules"]
+}

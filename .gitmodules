@@ -1,0 +1,5 @@
+[submodule "libs"]
+path = libs
+url = https://github.com/jerryaahe/next-vendor.git
+branch = main
+ignore = all

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.3.10/schema.json",
+  "files": {
+    "ignoreUnknown": false,
+    "includes": [
+      "**",
+      "!**/.next",
+      "!**/dist",
+      "!**/.turbo",
+      "!**/.vscode",
+      "!**/ui/src/components/*",
+      "!**/ui/src/hooks/*",
+      "!**/ui/src/lib/*"
+    ]
+  },
+  "extends": ["ultracite"],
+  "linter": {
+    "rules": {
+      "complexity": {
+        "noVoid": "off"
+      }
+    }
+  },
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
+    }
+  }
+}
